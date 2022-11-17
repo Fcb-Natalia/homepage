@@ -1,0 +1,41 @@
+.navigation {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: inset -125px 105px 119px -100px rgb(0 24 102);
+    background-color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+    
+    
+}
+
+.navigation__item {
+    margin: 5px;
+    
+
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+
+}
+
+.navigation__link:hover {
+    color:rgb(46, 147, 230)
+
+}

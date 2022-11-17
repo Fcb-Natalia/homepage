@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+.bodyHead {
+    background: rgba(37, 37, 158, 0.129);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px 50px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+.lightRed {
+    background: rgba(215, 149, 163, 0.455);
+    color: #222;
+}
+
+
+.header {
+    background-color: rgba(12, 34, 80, 0.722);
+    color: whitesmoke;
+    border-radius: 15px;
+    outline: 10px groove rgb(71, 71, 234);
+    box-shadow: 10px -15px 53px 1px #3E6CE0;
+}
+
+.nav {
+    color: whitesmoke;
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: inset -125px 105px 119px -100px rgba(63, 85, 158);
+    background-color: aliceblue;
+    font-size: 25px;
+    margin: auto;
+}
+
+.navigationList {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.listItem {
+    color: blue;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.navLink {
+    font-size: 25px;
+    color: rgba(74, 74, 230, 0.889);
+    text-decoration: none;
+
+}
+
+.navLink:focus {
+    outline: 2px solid currentColor;
+
+}
+
+.navLink:hover {
+    color:rgb(46, 147, 230)
+
+}
+
+.themeButton {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgba(80, 171, 241, 0.573);
+    color: whitesmoke;
+    font-size: 15px;
+    border: 1px groove rgb(46, 147, 230);
+    border-radius: 10px;
+}
+
+.image {
+    display: block;
+    box-shadow: 110px 30px 106px -12px #2C4BE8;
+    margin: 50px auto;
+    outline: 5px ridge rgba(13, 12, 80, 0.722);
+    outline-offset: 5px;
+    border-radius: 20px;
+    outline-offset: 5px;
+}
+
+.inline {
+    background: rgba(22, 22, 112, 0.721);
+    color: whitesmoke;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 5px ridge rgba(35, 35, 241, 0.871);
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    Color: whitesmoke;
+    background-color: rgba(249, 12, 12, 0.705);
+    border: 10px groove rgba(221, 15, 15, 0.7);
+    width: 100%;
+    max-width: auto;
+    border-radius: 8px;
+
+}
+
+
+.tableHeader {
+    background-color: rgb(100, 100, 234);
+    color: whitesmoke;
+    front-weidht: normal;
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgba(241, 186, 188, 0.625);
+}
+
+.tableRow:hover {
+    background-color: blanchedalmond;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.footer {
+    margin-top: 25px;
+
+}
