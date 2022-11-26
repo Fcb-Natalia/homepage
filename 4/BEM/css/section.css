@@ -2,6 +2,13 @@
     padding: 20px;
 }
 
+.header__title {
+    background-color: rgba(12, 34, 80, 0.722);
+    color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 10px -15px 53px 1px #3E6CE0;
+}
+
 .section__header {
     background-color: rgba(12, 34, 80, 0.722);
     color: whitesmoke;

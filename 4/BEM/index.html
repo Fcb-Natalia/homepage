@@ -9,6 +9,9 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -16,12 +19,11 @@
 </head>
 
 <body class="body">
-    <button class="body__changeBackgroundButton js-changeBackgroundButton"> Zmień na <span class="body__nextColorButton js-nextColorButton">jasny</span> motyw</button>
-    <section class="section">
-        <header>
-            <h1 class="section__header">Natalia Romaszko</h1>
-        </header>
-    </section>
+    <button class="body__changeBackgroundButton js-changeBackgroundButton"> Zmień na <span
+            class="body__nextColorButton js-nextColorButton">jasny</span> motyw</button>
+    <header class="header">
+        <h1 class="header__title">Natalia Romaszko</h1>
+    </header>
 
     <nav class="navigation">
         <ul class="navigation__list">
@@ -90,109 +92,109 @@
             <p>Więcej informacji na ten tamat na stronie <a rel="noreferrer noopener" title="Fc Barcelona"
                     target="_blank" href="https://www.fcbarca.com">Fc Barcelona(otwiera się w nowej karcie)</a></p>
 
-            <div class="tableContainer">
+            <div class="section__tableContainer">
                 <table class="table">
                     <caption class="table__caption"><strong>PUCHARY FC BARCELONY</strong></caption>
-                    <tr class="table__Row">
-                        <th class="table__Cell table__cell--Header" scope="col">Nazwa</th>
-                        <th class="table__Cell table__cell--Header" scope="col">Ilość wygranych</th>
-                        <th class="table__Cell table__cell--Header" scope="col">Podgląd Pucharów</th>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--Header" scope="col">Nazwa</th>
+                        <th class="table__cell table__cell--Header" scope="col">Ilość wygranych</th>
+                        <th class="table__cell table__cell--Header" scope="col">Podgląd Pucharów</th>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Liga Mistrzów</td>
-                        <td class="table__Cell">5</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Liga Mistrzów</td>
+                        <td class="table__cell">5</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/kMbg37hS/1-Liga-Mistrz-w.jpg" alt="Puchar Ligi Mistrzów">
                         </td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Klubowe Mistrzostwo Świata</td>
-                        <td class="table__Cell">2</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Klubowe Mistrzostwo Świata</td>
+                        <td class="table__cell">2</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/CK1ys4q0/2-Klubowe-Mistrzostwo-wiata.jpg"
                                 alt="Klubowe Mistrzostwo Świata"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Puchar Zdobywców Pucharów</td>
-                        <td class="table__Cell">4</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Puchar Zdobywców Pucharów</td>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/J0kySqP2/3-Puchar-Zdobywc-w-Puchar-w.jpg"
                                 alt="Puchar Zdobywców Pucharów"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Puchar Miast Targowych</td>
-                        <td class="table__Cell">3</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Puchar Miast Targowych</td>
+                        <td class="table__cell">3</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/X7D7Shr1/4-Puchar-Miast-Targowych.jpg"
                                 alt="Puchar Miast Targowyc"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Superpuchar Europy</td>
-                        <td class="table__Cell">4</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Superpuchar Europy</td>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/7htD4GZJ/5-Superpuchar-Europy.jpg" alt="Superpuchar Europy">
                         </td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Puchar Łaciński</td>
-                        <td class="table__Cell">2</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Puchar Łaciński</td>
+                        <td class="table__cell">2</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/qRnj09Bs/6-Puchar-aci-ski.jpg" alt="Puchar Łaciński"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Puchar Pirenejów</td>
-                        <td class="table__Cell">4</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Puchar Pirenejów</td>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/tCgWNK0B/7-Puchar-aci-ski.jpg" alt="Puchar Pirenejów">
                         </td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Mistrzostwo Ligi Hiszpańskiej</td>
-                        <td class="table__Cell">21</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Mistrzostwo Ligi Hiszpańskiej</td>
+                        <td class="table__cell">21</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/26fXqzKc/8-Mistrzostwo-Ligi-Hiszpa-skiej.jpg"
                                 alt="Mistrzostwo Ligi Hiszpańskiej">
                         </td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Superpuchar Hiszpanii</td>
-                        <td class="table__Cell">13</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Superpuchar Hiszpanii</td>
+                        <td class="table__cell">13</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/sgL2CLND/10-Superpuchar-Hiszpanii.jpg"
                                 alt="Superpuchar Hiszpanii"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Puchar Króla</td>
-                        <td class="table__Cell">31</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Puchar Króla</td>
+                        <td class="table__cell">31</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/VNT04v8g/9-Puchar-Kr-la.jpg" alt="Puchar Króla"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Liga Śródziemnomorska</td>
-                        <td class="table__Cell">1</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Liga Śródziemnomorska</td>
+                        <td class="table__cell">1</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/fRSNmR8D/12-Liga-r-dziemnomorska.jpg"
                                 alt="Liga Śródziemnomorska"></td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Liga Katalońska</td>
-                        <td class="table__Cell">1</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Liga Katalońska</td>
+                        <td class="table__cell">1</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/wvpynP1R/13-Liga-Katalo-ska.jpg" alt="Liga Katalońska">
                         </td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Mistrzostwo Ligi Katalońskiej</td>
-                        <td class="table__Cell">23</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Mistrzostwo Ligi Katalońskiej</td>
+                        <td class="table__cell">23</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/50KJ8QW9/14-Mistrzostwo-Ligi-Katalo-skiej.jpg"
                                 alt="Mistrzostwo Ligi Katalońskiej">
                         </td>
                     </tr>
                     <tr class="table__Row">
-                        <td class="table__Cell">Puchar Katalonii</td>
-                        <td class="table__Cell">8</td>
-                        <td class="table__Cell"><img width="120" height="55"
+                        <td class="table__cell">Puchar Katalonii</td>
+                        <td class="table__cell">8</td>
+                        <td class="table__cell"><img width="120" height="55"
                                 src="https://i.postimg.cc/dQTQGn3z/15-Puchar-Katalonii.jpg" alt="Puchar Katalonii">
                         </td>
                     </tr>
@@ -210,11 +212,6 @@
             ©Copyright 2022 Natalia Romaszko
         </p>
     </footer>
-
-
-
-
-
 </body>
 
 </html>
