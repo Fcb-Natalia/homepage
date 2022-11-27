@@ -15,10 +15,6 @@ html {
     padding: 0 20px;
 }
 
-
-
-.form {}
-
 .form__labelText {
     width: 100%;
     max-width: 150px;
@@ -52,7 +48,6 @@ html {
     border-radius: 5px;
     padding: 10px;
     margin-left: 45px;
-
 }
 
 .form__button:hover {
@@ -69,7 +64,6 @@ html {
     padding: 20px;
     border-radius: 5px;
     margin: 20px 0;
-
 }
 
 .form__fieldset:required {
@@ -93,5 +87,4 @@ html {
     max-width: 400px;
     width: 100%;
     margin: 40px;
-
 }
