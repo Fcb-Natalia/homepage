@@ -1,15 +1,27 @@
-console.log("Witam wszystkich na mojej stronie :)")
+{
+    const welcome = () => {
+        console.log("Witam wszystkich na mojej stronie :)")
+    }
 
-let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
-let body = document.querySelector(".body");
-let nextColorButton = document.querySelector(".js-nextColorButton");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const nextColorButton = document.querySelector(".js-nextColorButton");
+
+        body.classList.toggle("body--lightRed");
+        nextColorButton.innerText = body.classList.contains("body--lightRed") ? "jasny" : "czerwony";
+    };
+
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+}
 
 
-changeBackgroundButton.addEventListener("click", () => {
-    body.classList.toggle("body--lightRed");
-
-    nextColorButton.innerText = body.classList.contains("body--lightRed") ? "jasny" : "czerwony";
-})
 
 
 
