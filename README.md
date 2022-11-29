@@ -6,4 +6,6 @@ This is my first site where I'm learning the basics of programming with YouCode.
 ## DEMO
 https://fcb-natalia.github.io/homepage/
 
+![Natalia Romaszko](https://github.com/Fcb-Natalia/homepage/blob/main/image/Natalia%20Romaszko.png?raw=true)
+
 
