@@ -8,4 +8,10 @@ https://fcb-natalia.github.io/homepage/
 
 ![Natalia Romaszko](https://github.com/Fcb-Natalia/homepage/blob/main/image/Natalia%20Romaszko.png?raw=true)
 
+## Languages and conventions used in the project:
+- HTML
+- JavaScript
+- CSS
+- BEM
+
 
